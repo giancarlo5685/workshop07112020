@@ -4,7 +4,7 @@ Feature: Create Token
 
   Background:
     * url baseUrl
-    * header ContentType = 'application/json'
+    * header Content-Type = 'application/json'
 
     Scenario: Verificar que al enviar la peticion con username y password correctos reciba cod 200
       Given path '/auth'

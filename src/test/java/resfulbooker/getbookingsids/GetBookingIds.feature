@@ -4,7 +4,7 @@ Feature: Get Boooking Ids
 
   Background:
     * url baseUrl
-    * header ContentType = 'application/json'
+    * header Content-Type = 'application/json'
 
   Scenario: Verificar peticion correcta al obtener todos los Booking Ids
     Given path '/booking'
